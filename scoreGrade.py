@@ -8,15 +8,15 @@ Score Grade
 If the user enters a value out of range, print a suitable error message and exit.
 #--------------------------------------------------------------------------------
 
-score = input("Enter Score: ")
+score = input("Enter the Score: ")
 
 try:
     score=float(score)
 except:
-    print("Sorry,try a number")
+    print("Sorry,please try a number")
 
-if score>1.0 or score<0.0 :
-   print ("error")
+if score>=1.0 or score<0.0 :
+   print ("Error has occurred")
 
 elif score>=0.9 :
 
